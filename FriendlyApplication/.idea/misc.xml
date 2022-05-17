@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/indevn/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/Bad_Rst.xml" value="0.18309002433090024" />
+        <entry key="..\:/Users/indevn/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/Running.xml" value="0.18309002433090024" />
+        <entry key="..\:/Users/indevn/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_login.xml" value="0.39659367396593675" />
+        <entry key="..\:/Users/indevn/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="..\:/Users/indevn/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main_page.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/indevn/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_serial_port_test.xml" value="0.1" />
+        <entry key="..\:/Users/indevn/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/good_Rst.xml" value="0.18309002433090024" />
+        <entry key="..\:/Users/indevn/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/maintain_mode.xml" value="0.625" />
+        <entry key="..\:/Users/indevn/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/serialport_dataprocessview.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/indevn/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/serialport_dataprocessview_landscape.xml" value="0.23777173913043478" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
