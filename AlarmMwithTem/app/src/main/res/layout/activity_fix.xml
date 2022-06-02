@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006064"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/soundbutton"
+        style="@style/ThemeOverlay.Material3.Button"
+        android:layout_width="278dp"
+        android:layout_height="88dp"
+        android:background="@color/teal_700"
+        android:fontFamily="@font/noto_serif_bold"
+
+        android:text="声音调试"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="50sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <Button
+        android:id="@+id/windtembutton"
+        style="@style/ThemeOverlay.Material3.Button"
+        android:layout_width="402dp"
+        android:layout_height="87dp"
+        android:background="@color/teal_700"
+        android:fontFamily="@font/noto_serif_bold"
+
+        android:text="触发温度控制"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="50sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
+
+    <TextView
+        android:id="@+id/testTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_serif_bold"
+        android:text="请选择调试内容"
+        android:textColor="#E1F5FE"
+        android:textSize="46sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_serif_bold"
+        android:text="调试状态:"
+        android:textColor="#E1F5FE"
+        android:textSize="46sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_serif_bold"
+        android:text="维护模式"
+        android:textColor="#E1F5FE"
+        android:textSize="96sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <Button
+        android:id="@+id/movebutton"
+        style="@style/ThemeOverlay.Material3.Button"
+        android:layout_width="303dp"
+        android:layout_height="92dp"
+        android:background="@color/teal_700"
+        android:fontFamily="@font/noto_serif_bold"
+
+        android:text="舵机调试"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="50sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824" />
+
+    <Button
+        android:id="@+id/disbutton"
+        style="@style/ThemeOverlay.Material3.Button"
+        android:layout_width="401dp"
+        android:layout_height="79dp"
+        android:background="@color/teal_700"
+        android:fontFamily="@font/noto_serif_bold"
+
+        android:text="距离传感器调试"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="50sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449" />
+
+    <Button
+        android:id="@+id/spbutton"
+        style="@style/ThemeOverlay.Material3.Button"
+        android:layout_width="263dp"
+        android:layout_height="90dp"
+        android:background="@color/teal_700"
+        android:fontFamily="@font/noto_serif_bold"
+
+        android:text="串口调试"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="50sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+
+    <Button
+        android:id="@+id/sensorbutton"
+        style="@style/ThemeOverlay.Material3.Button"
+        android:layout_width="406dp"
+        android:layout_height="85dp"
+        android:background="@color/teal_700"
+        android:fontFamily="@font/noto_serif_bold"
+
+        android:text="颜色传感器调试"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="50sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

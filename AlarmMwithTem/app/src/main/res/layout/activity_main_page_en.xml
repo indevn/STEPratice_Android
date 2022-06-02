@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006064"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/statusText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/noto_serif_bold"
+      android:text="Sleep Good"
+      android:textColor="#B7E3F2FD"
+      android:textSize="34sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.961" />
+
+  <TextView
+      android:id="@+id/windtemText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/noto_serif_bold"
+      android:text="Temperature：⬛⬛⬜⬜"
+      android:textColor="#B7E3F2FD"
+      android:textSize="66sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.591" />
+
+  <TextView
+      android:id="@+id/textView5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/noto_serif_bold"
+      android:text="Clock:"
+      android:textColor="#B7E3F2FD"
+      android:textSize="66sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.357"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.458" />
+
+  <TextView
+      android:id="@+id/textView7"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/noto_serif_bold"
+      android:text="："
+      android:textColor="#B7E3F2FD"
+      android:textSize="66sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.635"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.458" />
+
+  <TextView
+      android:id="@+id/textViewHour"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/noto_serif_bold"
+      android:text="NA"
+      android:textColor="#B7E3F2FD"
+      android:textSize="66sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.568"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.458" />
+
+  <TextView
+      android:id="@+id/textViewMinute"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/noto_serif_bold"
+      android:text="NA"
+      android:textColor="#B7E3F2FD"
+      android:textSize="66sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.71"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.458" />
+
+  <Button
+      android:id="@+id/alarm_set"
+      style="@style/ThemeOverlay.Material3.Button"
+      android:layout_width="319dp"
+      android:layout_height="107dp"
+      android:background="@color/teal_700"
+      android:fontFamily="@font/noto_serif_bold"
+
+      android:text="Setting"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+      android:textSize="50sp"
+      app:backgroundTint="@null"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.275"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.771" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/noto_serif_bold"
+      android:text="Have a Good Dream"
+      android:textColor="#E1F5FE"
+      android:textSize="106sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.231" />
+
+  <Button
+      android:id="@+id/switch_button"
+      style="@style/ThemeOverlay.Material3.Button"
+      android:layout_width="385dp"
+      android:layout_height="119dp"
+      android:background="@color/teal_700"
+      android:fontFamily="@font/noto_serif_bold"
+
+      android:text="Switch"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+      android:textSize="50sp"
+      app:backgroundTint="@null"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.747"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.783" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

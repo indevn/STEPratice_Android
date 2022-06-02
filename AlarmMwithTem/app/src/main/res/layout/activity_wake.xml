@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006064"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/returnbutton"
+        style="@style/ThemeOverlay.Material3.Button"
+        android:layout_width="231dp"
+        android:layout_height="84dp"
+        android:background="@color/teal_700"
+        android:fontFamily="@font/noto_serif_bold"
+
+        android:text="返回界面"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="40sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <TextView
+        android:id="@+id/helloo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_serif_bold"
+        android:text="起床啦"
+        android:textColor="#E1F5FE"
+        android:textSize="106sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_serif_bold"
+        android:text="祝您一天生活愉快 :)"
+        android:textColor="#B7E3F2FD"
+        android:textSize="66sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <Button
+        android:id="@+id/silbutton"
+        style="@style/ThemeOverlay.Material3.Button"
+        android:layout_width="236dp"
+        android:layout_height="81dp"
+        android:background="@color/teal_700"
+        android:fontFamily="@font/noto_serif_bold"
+
+        android:text="静音模式"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="40sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
